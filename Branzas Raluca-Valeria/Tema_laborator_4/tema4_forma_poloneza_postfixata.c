@@ -1,4 +1,4 @@
-//////////////////////asta merge pentru (a*(b+c))
+
 
 #include<stdlib.h>
 #include<stdio.h>
@@ -30,18 +30,7 @@ void Create2(unsigned char *Stiva2, unsigned char *SP2)
         Stiva2[contor]=0;
     }
 }
-/*void lungimeSir(unsigned char *Val, unsigned char *SP3)
-{
 
-    unsigned char contor;
-    *SP3=strlen(&Val[0]);
-    /*for (contor =0;contor<max_lung2;contor++)
-    {
-        if(Val[contor]!=NULL)
-            (*SP3)++;
-    }
-
-}*/
 unsigned char IsStackEmpty(unsigned char *SP)
 {
     if((*(SP))==0)
