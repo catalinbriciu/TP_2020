@@ -1,0 +1,6 @@
+Folositi o stiva pentru a simula o masina simpla de adunat. Programul citeste umere reale si le
+pune în stiva. La citirea caracterului '+' se scot numerele din stiva, se aduna si se afiseaza
+rezultatul.
+În plus masina recunoaste urmatoarele instructi uni:
+',' - anuleaza ultima intrare
+'.' - anuleaza toate intrarile (sterge stiva)
