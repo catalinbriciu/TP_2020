@@ -1,0 +1,88 @@
+#include <stdio.h>
+#include <ctype.h>
+#include <stdlib.h>
+
+int st[100], fp[100], vf;
+
+int varf() {
+	return st[vf];
+}
+
+int pop() {
+	if (vf > 0)
+		return st[vf--];
+	return 0;
+}
+
+void push(int x) {
+	st[++vf] = x;
+	
+}
+
+int full() {
+	if (st[vf] == 99)
+		return 1;
+	return 0;
+}
+
+int empty() {
+	if (st[vf] == -1)
+		return 1;
+	return 0;
+}
+
+void init() {
+	st[vf] = -1;
+}
+
+int precedenta(char x) {
+	if (x == '(')
+		return 0;
+	if (x == '+' || x == '-')
+		return 1;
+	if (x == '*' || x == '/')
+		return 2;
+	return 0;
+}
+
+void initial_final(char initial[], char postfix[]) {
+	char x, t;
+	int i, j;//i pentru index din  initial si j pentru index din postfix
+	init();
+	j = 0;
+	for (i = 0; initial[i] != '\0'; i++) {
+		t = initial[i];
+		if (isalnum(t))
+			postfix[j++] = t;
+		else
+			if (t == '(')
+				push('(');
+			else
+				if (t == ')')
+					while ((x = pop()) != '(')
+						postfix[j++] = x;
+				else {
+
+					while (precedenta(t) <= precedenta(varf()) && !empty()) {
+						x = pop();
+						postfix[j++] = x;
+					}
+					push(t);
+				}
+	}
+	while (!empty()) {
+		x = pop();
+		postfix[j++] = x;
+	}
+	postfix[j] = '\0';
+}
+
+int main() {
+	char initial[30], postfix[30];
+	printf("Introduceti expresia dorita: ");
+	gets(initial);
+	initial_final(initial, postfix);
+	printf("Expresia in forma poloneza: %s\n", postfix);
+	system("pause");
+	return 0;
+}

@@ -1,0 +1,12 @@
+Pentru afisarea verticala a unui numar întreg (câte o cifra pe rând) se poate folosi o stiva în care
+se vor depune resturile împartirilor repetate la 10.
+Scrieti o functie avînd ca argument un numar întreg, care îl afiseaza vertical, folosind o stiva.
+void AfisStivaNr(int number) {
+   
+}
+
+123
+
+1
+2
+3
