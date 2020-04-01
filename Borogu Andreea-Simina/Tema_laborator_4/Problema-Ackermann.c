@@ -9,6 +9,13 @@ typedef struct ackermann_stiva
 	unsigned char x;
 	unsigned char y;
 }ackermann_stiva;
+void Push(ackermann_stiva* stiva, unsigned char* SP, unsigned char Val_x,unsigned char Val_y);
+ackermann_stiva Pop(ackermann_stiva* stiva, unsigned char* SP);
+void creare(ackermann_stiva* stiva, unsigned char* SP);
+unsigned char Stiva_este_goala(unsigned char* SP);
+unsigned char Stiva_este_plina(unsigned char* SP);
+ackermann_stiva Pop(ackermann_stiva* stiva, unsigned char* SP);
+unsigned char Akermann(ackermann_stiva val);
 unsigned char* SP;
 ackermann_stiva stiva[100];
 void creare(ackermann_stiva* stiva, unsigned char* SP)
