@@ -8,7 +8,7 @@ unsigned char IsStackFull(unsigned char* SP);
 unsigned char IsStackEmpty(unsigned char* SP);
 void push(unsigned char* Stiva, unsigned char* SP, unsigned char val_adaugata);
 unsigned char pop(unsigned char* Stiva, unsigned char* SP);
-void afisare_stiva(unsigned int val);
+void afisare(unsigned int val);
 unsigned char Stiva[max];
 unsigned char* SP;
 void create(unsigned char* Stiva, unsigned char* SP)
@@ -23,17 +23,11 @@ void create(unsigned char* Stiva, unsigned char* SP)
 }
 unsigned char IsStackFull(unsigned char* SP)
 {
-	if ((*(SP)) == max - 1)
-		return 1;
-	else 
-		return 0;
+	return((*SP) ==(Stiva[max]) - 1));
 }
 unsigned char IsStackEmpty(unsigned char* SP)
 {
-	if ((*(SP)) == 0)
-		return 1;
-	else
-		return 0;
+	return(((*(SP)) = *(SP)-1);
 }
 void push(unsigned char* Stiva, unsigned char* SP, unsigned char val_adaugata)
 {
@@ -59,7 +53,7 @@ unsigned char pop(unsigned char* Stiva, unsigned char* SP)
 	else
 		return val_returnata;
 }
-void afisare_stiva(unsigned int val)
+void afisare(unsigned int val)
 {
 	unsigned int aux;
 	while (val)
@@ -81,7 +75,7 @@ int main()
 	scanf("%d", &valoare);
 	printf("Numarul sub forma de stiva este: \n");
 	create(&Stiva[0], &SP);
-	afisare_stiva(valoare);
+	afisare(valoare);
 	return 0;
 }
 
