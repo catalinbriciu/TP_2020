@@ -13,8 +13,8 @@ void afisare_stiva()
 {
 	int i;
 	printf("\n");
-	for (i = 1; i <= varf; i++)
-		printf(" %d\n ",stiva[i]);
+	for (i = varf; i >= 1; i--)
+		printf(" %d \n ",stiva[i]);
 
 }
 int main()
