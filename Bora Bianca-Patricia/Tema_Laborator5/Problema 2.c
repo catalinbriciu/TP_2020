@@ -50,7 +50,7 @@ void Push(unsigned char* Stack, unsigned char* SP, unsigned char Val)
 unsigned char Pop(unsigned char* Stack, unsigned char* SP)
 {
 	unsigned char ReturnedValue = 0;
-	if (IsStackEmpty != 0)//daca stiva NU e goala
+	if (IsStackEmpty != 0)
 	{
 		*SP = *SP - 1;
 		ReturnedValue = Stack[*SP];
