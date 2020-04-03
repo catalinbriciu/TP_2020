@@ -27,14 +27,14 @@ void afisare_stiva()
 {
 	int i;
 	printf("\n\n");
-	for (i = 1; i <= vf; i++)
-		printf("%d ", v[i]);
+	for (i = vf; i >= 1; i--)
+		printf("%d \n", v[i]);
 	printf("\n");
 }
 int main()
 {
 	char input;  int nr,s=0;
-	
+	printf(" a=afisare stiva \n p=push \n e=exit \n + = Suma \n . = golire stiva \n , = stergere ultimul element introdus \n ");
 	while (1)
 	{
 		scanf("%c", &input);
@@ -56,8 +56,11 @@ int main()
 			wipe_data();
 			afisare_stiva();
 		}
+		if (input == 'a')
+			afisare_stiva();
 		if (input == 'e')
 			exit(0);
+
 	}
 	
 	return 0;
