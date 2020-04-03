@@ -35,7 +35,7 @@ unsigned char IsStackFull(unsigned char* SP)
 		return 0;
 }
 
-void Push(unsigned char* Stack, unsigned char* SP, unsigned char Val)
+void Push(unsigned char* Stack, unsigned char* SP, unsigned char Val)//se incrementeaza (adica se actualizeaza pozitia varfului ca fiind cu una mai sus decat inainte)
 {
 	if (IsStackFull(&SP) != 1)
 	{
@@ -47,10 +47,10 @@ void Push(unsigned char* Stack, unsigned char* SP, unsigned char Val)
 		printf("Stack is full");
 	}
 }
-unsigned char Pop(unsigned char* Stack, unsigned char* SP)
+unsigned char Pop(unsigned char* Stack, unsigned char* SP)// se decrementeaza(se scoate un element din stiva)
 {
 	unsigned char ReturnedValue = 0;
-	if (IsStackEmpty != 0)//daca stiva NU e goala
+	if (IsStackEmpty != 0)
 	{
 		*SP = *SP - 1;
 		ReturnedValue = Stack[*SP];
@@ -59,7 +59,7 @@ unsigned char Pop(unsigned char* Stack, unsigned char* SP)
 	else
 		return ReturnedValue;
 }
-void PrintStack(unsigned int Value)
+void PrintStack(unsigned int Value)// functie pentru afisarea continutului stivei
 {
 	unsigned int x;
 	while (Value)
