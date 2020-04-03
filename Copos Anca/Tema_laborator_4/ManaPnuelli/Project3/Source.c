@@ -41,7 +41,7 @@ int main()
 		}
 		else
 			push(stiva[vf - 1] + 2);
-		//afisare();
+		afisare();
 
 	}
 	printf("val fct f( %d ) este: %d \n", x, stiva[vf - 1] - 1);
