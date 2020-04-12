@@ -67,6 +67,7 @@ boolean IsSolution(int level) {
 }
 #endif
 #ifdef COMBINARI
+/*solution combinari*/
 boolean IsSolution(int level) {
 	boolean isSol = FALSE;
 	if (level == (k - 1)) {
