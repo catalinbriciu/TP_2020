@@ -1,0 +1,5 @@
+1. Se cer toate solutiile de asezare in linie a m caini si n pisici astfel incat sa nu existe o pisica
+intre doi caini
+2. Sa se genereze toate numerele palindrome de lungime n
+3. Sa se decompuna un numar in suma de numere prime. Generati toate solutiile
+4. Sa se rezolve o problema de tip Sudoku de 9 pe 9 cu inputuri date de la tastatura pentru pozitia initiala a numerelor. (e.g. luati un sudoku de pe google ca si "tabla" de rezolvat)
