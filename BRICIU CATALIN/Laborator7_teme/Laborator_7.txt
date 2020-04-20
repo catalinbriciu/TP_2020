@@ -1,0 +1,19 @@
+Se dau margele de 5 culori: alb, rosu, verde, albastru, negru. Numarul margelelor de
+fiecare culoare se considera nelimitat. Sa se afiseze toate colierele de n margele care se pot
+forma, respectând urmatoarele conditii:
+- nu poate fi plasata o margea verde lânga o margea albastra;
+- nu pot fi plasate margele vecine de aceeasi culoare;
+- numarul margelelor rosii nu poate depasi o treime din numarul total de margele din colier
+Indicatii: culorile margelelor se codifica astfel: alb cu ’a’, albastru cu 'b', rosu cu 'r', verde cu
+'v', negru cu 'n'. Algoritmul are la baza generarea elementelor produsului cartezian, însa sunt
+necesare validari. A nu se uita ca prima margea este lânga ultima!
+
+Sa se afiseze toate numerele formate din cifre distincte cu proprietatea ca suma
+cifrelor este S. Valoarea variabilei S se citeste de la tastatura.
+
+ Sa se genereze toate numerele naturale, cu cel mult n cifre (n?10), care sunt formate
+numai din cifre pare, în ordine strict crescatoare.
+
+Într-un restaurant, un meniu este format din trei feluri de mâncare. Exista patru
+preparate culinare pentru felul unu, cinci preparate culinare pentru felul doi si trei preparate culinare pentru felul 3. Sa se genereze toate meniurile care se pot forma cu aceste
+preparate culinare. 
