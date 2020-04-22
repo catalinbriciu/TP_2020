@@ -1,0 +1,37 @@
+Albu Adrian
+Alex Belengeanu
+Amalia Bodrean
+Anca Copos
+Andrei Bucur
+Bora Bianca
+Bora Paul
+Branzas Raluca
+Busoi Cristina
+Emanuel Borz
+Flavius Bumbaru
+Loriana Bugaru
+Raul Dolomet
+Rebeca Butunoi
+Barbulescu Bianca
+Borogu Andreea Simina
+Berari Mihai Dan.
+
+@Catalin:
+- problema cu bitii de la laboratul 2 sa fie urcata pe github.
+
+
+@all
+- deadline pentru tema 7 - duminica 26.04.2020
+- deadline pentru tema 7 - bonus - duminica 26.04.2020 
+ 	sudoku de 9 x 9 pornind de la problema de la laborator.
+
+
+Test laborator: 
+27.04 or 04.05 - tematica este urmatoarea 
+a) Cautarea liniara/binara
+b) operatii pe biti
+c) pointeri
+d) stiva/coada
+
+@Catalin: upload problemele din anii precedenti ca si exemple. (nu vor fi aceleasi,dar daca o sa faceti tot setul, eu zic ca ca descurcati). 
+

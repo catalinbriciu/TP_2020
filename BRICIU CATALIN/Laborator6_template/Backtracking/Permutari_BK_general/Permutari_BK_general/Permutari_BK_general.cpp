@@ -29,7 +29,7 @@
 #define TRUE 1u
 #define FALSE 0u
 #define _no_PERMUTARI
-#define COMBINARI 
+#define COMBINARI //#ifdef, #if defined(COMBINARI)
 //types defintion
 typedef unsigned char boolean;
 //global variables section;
@@ -65,6 +65,29 @@ boolean IsSolution(int level) {
 	}
 	return isSol;
 }
+#elif defined(COMBINARI)
+/*solution aranjamente*/
+boolean IsSolution(int level) {
+	boolean isSol = TRUE;
+	unsigned char counter = 0;
+	if (level == 0) {
+		isSol = FALSE;
+	}
+	else {
+		for (counter = 1u; (counter <= level) && (isSol == TRUE); counter++) {
+			if (SolutionArray[counter - 1] >= SolutionArray[counter]) {
+				isSol = FALSE;
+			}
+		}
+	}
+	if ((isSol == TRUE) && (level == (k - 1))) {
+		isSol = TRUE;
+	}
+	else {
+		isSol = FALSE;
+	}
+	return isSol;
+}
 #else
 /*solution aranjamente*/
 boolean IsSolution(int level) {
@@ -87,9 +110,23 @@ void PrintSolution(int level) {
 	printf("\n");
 }
 
+#ifdef COMBINARI
+int GetNextElement(int level) {
+	if (level == 0) {
+		return level;
+	}
+	else if ((SolutionArray[level - 1u]) < (n - 1)){
+		return SolutionArray[level - 1u] + 1;
+	}
+	else {
+		return level;
+	}
+}
+#else
 int GetNextElement(int level) {
 	return level;
 }
+#endif
 
 void Backtracking(int level) {
 	int index;
@@ -116,10 +153,13 @@ void Backtracking(int level) {
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//simulate the behavior for n = 3;
-#ifndef PERMUTARI
+#ifdef PERMUTARI
 	k = 2u;
+#elif defined(COMBINARI)
+	k = 3u;
+#else
 #endif
-	n = 3;
+	n = 4;
 	Backtracking(0);
 	getchar();
 	return 0;
