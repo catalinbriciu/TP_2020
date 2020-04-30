@@ -1,0 +1,59 @@
+Albu Adrian
+Alex Belengeanu
+Amalia Bodrean
+Anca Copos
+Andrei Bucur
+Armina Cioaba
+Bora Bianca
+Bora Paul
+Branzas Raluca
+Busoi Cristina
+Emanuel Borz
+Flavius Bumbaru
+Loriana Bugaru
+Raul Dolomet
+Rebeca Butunoi
+Barbulescu Bianca
+Borogu Andreea Simina
+Berari Mihai Dan.
+Miruna Constantin
+Semian Natalia Emilia
+
+
+Test laborator: 
+27.04 or 04.05 - tematica este urmatoarea 
+a) Cautarea liniara/binara
+b) operatii pe biti
+c) pointeri
+d) stiva/coada
+
+Desfasurarea testului la laborator:
+- toata lumea la ora 18 o sa fie pe webex. 
+- o sa fac un randomizor cu numere de la 1-6. 
+- eu o sa pregatesc 6 probleme pe care o sa le distribui catre voi - pe mail. (@all: sa-mi dai adresa voastra de mail); fiecare primeste o problema. 
+- asteptam 2 min pana vin toate problemele si voi in prealabil aveti facuta solutia unde sa dati push catre git. @Catalin: to create folder and distribute them. 
+- la 18:10 dam startul la implementare si toata lumea trebuie sa dea push pana la 18:35. 
+- aveti voie sa folositi orice materiale la indemana, exceptand prieteni/prietene:). 
+- la 18:35/40 iesim toti de pe grup si o sa chem pe whatts up doar cate 2 sa fie conectati. In caz de malfunction, fie telefon,
+fie va sun eu pe whattsup si facem share screen. 
+
+Probleme de rezolvat: 
+D:\School\Tehnici de Programare\2020\RepoGitHub\TP_2020\BRICIU CATALIN\Probleme_antrenament_testul_1.
+
+@Emilia, @Armina: sa-i anuntati si pe colegii vostrii din anul 2.
+
+Cursul se gaseste aici:
+https://www.youtube.com/watch?v=0gYOZg2zGBs.
+
+Temele sunt: 
+   Suma primelor n numere naturale
+ Calcul Factorial(n)
+ Calcul suma cifrelor unui numar
+ Calcul functie Manna-Pnueli
+ Calcul Cmmdc(a,b)
+ Calcul Fibonacci(n)
+ Inversarea cifrelor unui numar
+Deadline: Duminica: 03.05.2020
+
+
+

@@ -2,8 +2,8 @@
 
 
 //macrodefinitions section
-#define SUDOKU_MAX_LINES 3u
-#define SUDOKU_MAX_COLUMNS 3u
+#define SUDOKU_MAX_LINES 9u
+#define SUDOKU_MAX_COLUMNS 9u
 #define TRUE 1u
 #define FALSE 0u
 //types defintion
@@ -69,7 +69,7 @@ boolean IsBoxedSolution(int column, int line) {
 	}
 	//the frequency table was built; let's check it; all numbers needs to appear only once
 	for (counter = 0; counter < 9; counter++) {
-		if (mapOfNumbers[counter] != 1u) {
+		if (mapOfNumbers[counter] > 1u) {
 			return FALSE;
 		}
 	}
@@ -210,7 +210,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//SolutionArray[1][4] = 9;
 	//SolutionArray[1][5] = 5;
 	SolutionArray[2][1] = 9;
-	//SolutionArray[2][2] = 8;
+	SolutionArray[2][2] = 8;
 	//SolutionArray[2][7] = 6;
 	//SolutionArray[3][0] = 8;
 	//SolutionArray[4][0] = 4;

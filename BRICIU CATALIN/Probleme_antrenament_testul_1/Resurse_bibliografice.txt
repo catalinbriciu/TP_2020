@@ -1,0 +1,18 @@
+Salutare *,
+
+Cateva resurse bibliografice despre fiecare tema:
+
+https://informaticacnet.wordpress.com/category/clasa-a-x-a/recursivitate/
+https://cnamd10.wikispaces.com/Recursivitate
+http://info.mcip.ro/?cap=recursivitate
+http://info.mcip.ro/?cap=Backtracking
+http://www.runceanu.ro/adrian/wp-content/cursuri/pa2016/L10-PA(2016).pdf
+https://cnamd.wikispaces.com/file/view/06%20Partitiile%20lui%20n.pdf/462782062/06%20Partitiile%20lui%20n.pdf
+https://cnamd.wikispaces.com/file/view/08+Colorarea+unei+harti.pdf/464181460/08%20Colorarea%20unei%20harti.pdf
+http://info.mcip.ro/?cap=Divide%20et%20Impera
+http://www.lbi.ro/~oana/11%20F/Greedy/Greedy%20Euristic.pdf
+https://tuneam.files.wordpress.com/2014/10/prezentare-greedy.pdf
+http://ocw.cs.pub.ro/courses/pa/laboratoare/laborator-02
+http://info.mcip.ro/?cap=Divide%20et%20Impera
+http://www.ududec.com/wp-content/uploads/2015/04/18.-Metoda-Greedy.pdf
+http://ler.is.edu.ro/~cex_is/Informatica/2013/teme/9/t6.pdf
