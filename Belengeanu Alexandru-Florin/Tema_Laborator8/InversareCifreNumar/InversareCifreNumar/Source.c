@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int InversareCifreNumar(int N, int NewN) // o va fi zero in int main();
+int InversareCifreNumar(int N, int NewN) 
 {
 	if (N == 0)
 		return NewN;
