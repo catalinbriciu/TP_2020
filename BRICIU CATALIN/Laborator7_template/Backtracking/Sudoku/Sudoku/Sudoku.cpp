@@ -1,9 +1,10 @@
 ﻿#include "stdafx.h"
+#include "time.h"
 
 
 //macrodefinitions section
-#define SUDOKU_MAX_LINES 9u
-#define SUDOKU_MAX_COLUMNS 9u
+#define SUDOKU_MAX_LINES 3u
+#define SUDOKU_MAX_COLUMNS 3u
 #define TRUE 1u
 #define FALSE 0u
 //types defintion
@@ -197,6 +198,7 @@ boolean Backtracking(int level) {
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	clock_t start, end;
 	n = 9;
 	SolutionArray[0][0] = 1;
 	SolutionArray[0][1] = 3;
@@ -215,8 +217,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	//SolutionArray[3][0] = 8;
 	//SolutionArray[4][0] = 4;
 	//SolutionArray[5][0] = 7;
+	start = clock();
 	PrintSolution(0);
 	Backtracking(0);
+	end = clock();
+	double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
 	//PrintSolution(0);
 	getchar();
 	return 0;
