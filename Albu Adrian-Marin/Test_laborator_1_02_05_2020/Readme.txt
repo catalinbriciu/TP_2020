@@ -1,1 +1,0 @@
-solution for test no#1
