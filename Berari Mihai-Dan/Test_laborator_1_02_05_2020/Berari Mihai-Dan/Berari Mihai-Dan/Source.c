@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
@@ -25,7 +24,7 @@
 	 }
 	 return -1;
  }
- int cautare_lin(int myTable[], int n, int element);
+ int cautare_lin(int myTable[],  int element)
  {
 	 int i;
 	 for (i = 0; i < myTable[20000]; i++)
@@ -35,7 +34,8 @@
  }
 int  main() {
 	int element;
-	}
+	double time_taken;
+
 	clock_t start, end;
 	start = clock();
 	printf("%d is found at Index %d \n", element, cautare_bin(myTable, 4));
@@ -51,7 +51,7 @@ int  main() {
 	start = clock();
 	printf("%d is found at Index %d \n", element, cautare_in(myTable,19993));
 	end = clock();
-	printf("timpul de executie este:")
+	printf("timpul de executie este:");
 	double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
 	system("pause");
 	return 0;
