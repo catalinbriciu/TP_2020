@@ -1,0 +1,18 @@
+﻿'Test _04_05_Bugaru_Loriana.exe' (Win32): Loaded 'C:\Users\bugar\OneDrive\Documente\GitHub\TP_2020\Bugaru Loriana Ana-Maria\Test_laborator_1_02_05_2020\Test _04_05_Bugaru_Loriana\Debug\Test _04_05_Bugaru_Loriana.exe'. Symbols loaded.
+'Test _04_05_Bugaru_Loriana.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. Cannot find or open the PDB file.
+'Test _04_05_Bugaru_Loriana.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. Cannot find or open the PDB file.
+'Test _04_05_Bugaru_Loriana.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. Cannot find or open the PDB file.
+'Test _04_05_Bugaru_Loriana.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. Cannot find or open the PDB file.
+'Test _04_05_Bugaru_Loriana.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. Cannot find or open the PDB file.
+The thread 0x660 has exited with code 0 (0x0).
+'Test _04_05_Bugaru_Loriana.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sechost.dll'. Cannot find or open the PDB file.
+'Test _04_05_Bugaru_Loriana.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. Cannot find or open the PDB file.
+'Test _04_05_Bugaru_Loriana.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sspicli.dll'. Cannot find or open the PDB file.
+'Test _04_05_Bugaru_Loriana.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptbase.dll'. Cannot find or open the PDB file.
+'Test _04_05_Bugaru_Loriana.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'. Cannot find or open the PDB file.
+'Test _04_05_Bugaru_Loriana.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. Cannot find or open the PDB file.
+'Test _04_05_Bugaru_Loriana.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. Cannot find or open the PDB file.
+The thread 0x28cc has exited with code 0 (0x0).
+The thread 0x4104 has exited with code 0 (0x0).
+The thread 0xb1c has exited with code 0 (0x0).
+The program '[11332] Test _04_05_Bugaru_Loriana.exe' has exited with code 0 (0x0).
