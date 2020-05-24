@@ -4,6 +4,7 @@
 #include "conio.h"
 #include "stdio.h"
 #include "stdlib.h"
+#include "time.h"
 
 #define MAX_STACK_SIZE 25u
 #define TRUE 1
@@ -64,8 +65,12 @@ const S_MAP  MyHashMap[] = { { '(', E_MAX_PRIO, E_LEFT_PARANTHESIS },
 
 int tmain(void)
 {
+	clock_t start, end;
 	int lub_Result;
+	start = clock();
 	Compute_PolishForm();
+	end = clock();
+	double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
 	lub_Result = GetResultFromPolishForm();
 	_getch();
 	return 0;
