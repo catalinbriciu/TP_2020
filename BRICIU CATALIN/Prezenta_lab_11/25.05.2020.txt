@@ -1,0 +1,97 @@
+Albu Adrian
+Alex Belengeanu
+Amalia Bodrean
+Anca Copos
+Andrei Bucur
+Armina Cioaba
+Bora Bianca
+Bora Paul
+Branzas Raluca
+Busoi Cristina
+Emanuel Borz
+Flavius Bumbaru
+Loriana Bugaru
+Raul Dolomet
+Rebeca Butunoi
+Barbulescu Bianca
+Borogu Andreea Simina
+Berari Mihai Dan.
+
+
+Test laborator: 
+01.06 - tematica este urmatoarea 
+a) Recursivittate & aplicatii ale recusirivatatii.
+b) Divide et impera
+c) Backtracking
+d) Greedy 
+
+Desfasurarea testului la laborator:
+- toata lumea la ora 18 o sa fie pe webex. 
+- o sa fac un randomizor cu numere de la 1-6. 
+- eu o sa pregatesc 6 probleme pe care o sa le distribui catre voi - pe mail. (@all: sa-mi dai adresa voastra de mail); fiecare primeste o problema. 
+- asteptam 2 min pana vin toate problemele si voi in prealabil aveti facuta solutia unde sa dati push catre git. @Catalin: to create folder and distribute them. 
+- la 18:10 dam startul la implementare si toata lumea trebuie sa dea push pana la 18:35. 
+- aveti voie sa folositi orice materiale la indemana, exceptand prieteni/prietene:). 
+- la 18:35/40 iesim toti de pe grup si o sa chem pe whatts up doar cate 2 sa fie conectati. In caz de malfunction, fie telefon,
+fie va sun eu pe whattsup si facem share screen. 
+
+Prezentarea proiectului: 
+03-04.06.2020
+	- Catalin o sa afiseze orarul 15 min/fiecare
+
+Probleme de rezolvat: 
+D:\School\Tehnici de Programare\2020\RepoGitHub\TP_2020\BRICIU CATALIN\Probleme_antrenament_testul_2.
+
+@Emilia, @Armina: sa-i anuntati si pe colegii vostrii din anul 2.
+
+Pregatire pt examen (quiz-uri online).
+
+https://www.geeksforgeeks.org/c-arrays-pointers-question-1/
+https://www.geeksforgeeks.org/c-language-2-gq/pointers-gq/
+https://www.geeksforgeeks.org/c-language-2-gq/dynamic-memory-allocation-gq/
+https://www.geeksforgeeks.org/c-language-2-gq/data-types-gq/
+https://www.geeksforgeeks.org/data-structure-gq/stack-gq/
+https://www.geeksforgeeks.org/data-structure-gq/queue-gq/
+https://www.geeksforgeeks.org/data-structure-gq/array-gq/
+https://www.geeksforgeeks.org/algorithms-gq/analysis-of-algorithms-gq/
+https://www.geeksforgeeks.org/algorithms-gq/divide-and-conquer-gq/
+https://www.geeksforgeeks.org/algorithms-gq/searching-and-sorting-gq/
+https://www.geeksforgeeks.org/algorithms-gq/greedy-algorithms-gq/
+https://www.geeksforgeeks.org/algorithms-gq/backtracking-gq/
+https://www.geeksforgeeks.org/algorithms-gq/recursion-gq/
+https://www.geeksforgeeks.org/algorithms-gq/bit-algorithms-gq/
+https://www.geeksforgeeks.org/algorithms-gq/analysis-of-algorithms-recurrences-gq/
+
+
+
+Cursul se gaseste aici:
+https://www.youtube.com/watch?v=0gYOZg2zGBs.
+
+Temele sunt: 
+ Planificarea activitatilor
+ PRoblema rucsacului
+ Problema monedelor
+  Submultime maximala
+
+Deadline: Duminica: 31.05.2020.
+
+Examene:
+27.05 - 
+28.05 -
+29.05 - 
+03.06 - P2 
+
+Prezentarea proiectelor: Vineri, samabata, duminica, luni - cate 4/5 tura. 
+Vineri: 19-20:30
+Sambata: 14 - 18.
+Duminica: 14-18.
+Luni: 14-16
+
+@Alex: to create an excel with 4 tabs with hours: 20 min diference between each presentation. Deadline: 26.05, 19.00.
+
+
+
+
+
+
+
